@@ -40,14 +40,14 @@ public class PosInMemoryDB implements PosDB {
     }
 
     private PosInMemoryDB() {
-        this.products.add(new Product("PD1", "iPhone 13", 8999, "1.jpg"));
-        this.products.add(new Product("PD2", "MacBook Pro", 29499, "2.jpg"));
-        this.products.add(new Product("PD3", "MacBook Pro", 29499, "3.jpg"));
-        this.products.add(new Product("PD4", "MacBook Pro", 29499, "4.jpg"));
-        this.products.add(new Product("PD5", "MacBook Pro", 29499, "5.jpg"));
-        this.products.add(new Product("PD6", "MacBook Pro", 29499, "6.jpg"));
-        this.products.add(new Product("PD7", "MacBook Pro", 29499, "7.jpg"));
-        this.products.add(new Product("PD8", "MacBook Pro", 29499, "comp.png"));
+        this.products.add(new Product("PD1", "iPhone 13", 5999, "1.jpg"));
+        this.products.add(new Product("PD2", "iPhone 13 Pro Max", 9799, "2.jpg"));
+        this.products.add(new Product("PD3", "2021 款 iPad", 2499, "3.jpg"));
+        this.products.add(new Product("PD4", "iPad Pro 12.9 英寸", 8499, "4.jpg"));
+        this.products.add(new Product("PD5", "新款 MacBook Air", 7999, "5.jpg"));
+        this.products.add(new Product("PD6", "新款 MacBook Pro 13 英寸", 9999, "6.jpg"));
+        this.products.add(new Product("PD7", "Apple Watch Series 7", 2999, "7.jpg"));
+        this.products.add(new Product("PD8", "AirPods", 1176, "8.jpg"));
 
     }
 
